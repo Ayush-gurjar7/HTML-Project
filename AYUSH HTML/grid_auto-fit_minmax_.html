@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body{
+    width: 100%;
+    height: 100%;
+}
+        .container{
+
+            width: 100%;
+            height: 100%;
+            display: grid;
+            padding: 4rem;
+            gap: 1rem;
+            background-color: rgb(200, 188, 188);
+            grid-template-columns: repeat(auto-fit,minmax(200px, 500px));
+        }
+
+        .iteam_container{
+            padding: 1rem;
+            border: 3px solid black;
+            background-color: rgb(95, 95, 179);
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+<div class="iteam_container"> iteam A</div>
+<div class="iteam_container"> iteam B</div>
+<div class="iteam_container"> iteam C</div>
+<div class="iteam_container"> iteam D</div>
+<div class="iteam_container"> iteam E</div>
+<div class="iteam_container"> iteam F</div>
+<div class="iteam_container"> iteam G</div>
+
+
+
+    </div>
+</body>
+</html>

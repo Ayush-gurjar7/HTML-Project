@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:brown;
+            --custom-width:330px;
+
+        }
+        .container{
+             background-color: wheat;
+            border: 3px solid black; 
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            /* --primary-color: green;
+            --custom-width:330px; */
+            background-color: aquamarine;
+            border: 2px solid var(--primary-color);
+            width:var(--custom-width);
+            height: 330px;
+             margin: 5px;
+            padding: 5px;
+            #head1{
+            text-shadow: 2px 3px 5px green;
+            /* text-shadow: yellow 2px 3px 5px; */
+            /* text-shadow: white  2px 3px; */
+            /* text-shadow: 2px 3px; */
+            }
+             box-shadow: 10px 10px var(--primary-color)
+             /* box-shadow: -10px -10px 20px  var(--primary-color) */
+             /* box-shadow: -10px -10px 20px 40px var(--primary-color) */
+            /* box-shadow: inset -5px 0px black; */
+            /* box-shadow: 10px 10px red, 15px 15px white; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="images/Programming.jpg" width="50">
+            <h2 id="head1">welcome to code</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum deleniti reiciendis laudantium nostrum nulla molestiae, dolorem obcaecati magni illum consequatur, unde itaque? Quaerat culpa, corporis odio itaque earum nostrum.</p>
+        </div>
+    </div>
+</body>
+</html>
